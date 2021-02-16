@@ -2,6 +2,8 @@ mod lib;
 
 use lib::*;
 
+// Dovahkiin, Dovahkiin, naal ok zin los vahriin, Wah dein vokul mahfaeraak ahst vaal! Ahrk fin norok paal graan fod nust hon zindro zaan,
+
 fn main() -> lib::Result<()> {
     let args = std::env::args().skip(1).collect::<Vec<String>>();
 
