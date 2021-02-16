@@ -2,6 +2,8 @@ mod lib;
 
 use lib::*;
 
+// Overthrowing Mengsk is just the start. This is about building a better tomorrow. Don't you see? We just released every scientist, philosopher and free thinker that ever challenged Mengsk's rule. That was our real victory today.
+
 fn main() -> lib::Result<()> {
     let args = std::env::args().skip(1).collect::<Vec<String>>();
 
